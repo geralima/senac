@@ -1,0 +1,35 @@
+p { color:brown ;
+font-weight:900 ;
+font-size: 1cm;
+font-style: normal;
+font-size-adjust: inherit;
+font-weight: 500;
+background-color: rgb(18, 194, 68);
+width: 400px;
+position: -ms-page;
+border: rgb(4, 4, 4);
+}
+
+p1 { color :aqua ;
+    font-weight:900 ;
+    font-size: 1cm;
+    font-style: normal;
+    font-size-adjust: inherit;
+    font-weight: 500;
+    background-color: rgb(18, 21, 194);
+    width: 300px;
+    position: sticky;
+    border: rgb(4, 4, 4);
+}
+
+p2 {color :darkblue ; 
+    font-weight:900 ;
+    font-size: 1cm;
+    font-style: normal;
+    font-size-adjust: inherit;
+    font-weight: 500;
+    background-color: rgb(171, 194, 18);
+    width: 350px;
+    position: absolute;
+    border: rgb(4, 4, 4);
+}
