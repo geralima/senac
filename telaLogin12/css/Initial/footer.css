@@ -1,0 +1,32 @@
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.logo__redes {
+    width: 2rem;
+}
+
+.conecta__talentos {
+    font-size: .7rem;
+}
+
+.lista__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.lista__item__footer {
+    margin: 0 0.5rem;
+    transition: all .7s;
+}
+
+.lista__footer:has(.lista__item__footer:hover) .lista__item__footer:not(:hover){
+    opacity: .2;
+    scale: .98;
+}
